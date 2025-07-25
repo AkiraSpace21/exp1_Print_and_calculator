@@ -1,84 +1,77 @@
-Aim
-Write a C++ program to display "Hello, World!"
+# C++ Experiment 1: Hello World & Basic Calculator
 
-Build a simple calculator to perform the following operations:
+---
 
-Addition
+## 🎯 Aim
 
-Subtraction
+- Write a C++ program to display **"Hello, World!"**
+- Build a simple calculator to perform:
+  - **Addition**
+  - **Subtraction**
+  - **Multiplication**
+  - **Division**
 
-Multiplication
+---
 
-Division
+## 🧠 Objectives
 
-Objectives
-Understand the structure and flow of a basic C++ program
+- Understand the structure and flow of a basic C++ program  
+- Learn how to use `cout` for output and `cin` for user input  
+- Get comfortable using variables and arithmetic operators  
+- Practice code clarity through meaningful logic and output  
+- Build logic using step-wise execution (algorithmic thinking)
 
-Learn how to use cout for output and cin for user input
+---
 
-Get comfortable using variables and arithmetic operators
+## 🛠 Tools Used
 
-Practice code clarity through meaningful logic and output
+- **Programming Language**: C++
+- **Compiler**: g++ (GNU Compiler Collection)
+- **Editor/IDE**: Visual Studio Code
+- **Operating System**: Windows 10
 
-Build logic using step-wise execution (algorithmic thinking)
+---
 
-Tools Used
-Programming Language: C++
+## 📘 Algorithm Explanation
 
-Compiler: g++ (GNU Compiler Collection)
+### ➤ Hello World Program
 
-Editor/IDE: Visual Studio Code
+1. Start the program  
+2. Print the word **"Hello"**  
+3. Print the sentence **"World, let's do cpp"** on a new line  
+4. End the program  
 
-Operating System: Windows 10
+---
 
-Algorithm Explanation
-Hello World Program
-Start the program
+### ➤ Calculator Program
 
-Print the word "Hello"
+1. Start the program  
+2. Declare variables:
+   - `num1`, `num2` → for user input (as `float`)
+   - `sum`, `sub`, `mult` → to store results (as `int`)
+   - `divi` → to store division result (as `float`)
+3. Prompt the user to enter the first number  
+4. Read the first number using `cin`  
+5. Prompt the user to enter the second number  
+6. Read the second number using `cin`  
+7. Calculate and store the sum → `sum = num1 + num2`  
+8. Display the result of addition  
+9. Calculate and store the difference → `sub = num1 - num2`  
+10. Display the result of subtraction  
+11. Calculate and store the product → `mult = num1 * num2`  
+12. Display the result of multiplication  
+13. Calculate and store the division → `divi = num1 / num2`  
+14. Display the result of division  
+15. End the program  
 
-Print the sentence "World, let's do cpp" on a new line
+---
 
-End the program
+## ✅ Conclusion
 
-Calculator Program
-Start the program
+This experiment helped reinforce the basics of writing and executing C++ programs.  
+The **Hello World** program provided an introduction to `cout` and the structure of a C++ program.  
+The **calculator** allowed practice with arithmetic operators, variable handling, and user input using `cin`.  
+These exercises form the essential foundation for building more complex programs in future experiments.
 
-Declare variables:
+---
 
-num1 and num2 as float (for user input)
-
-sum, sub, mult as int (for integer results)
-
-divi as float (for division result)
-
-Prompt the user to enter the first number
-
-Read the first number using cin
-
-Prompt the user to enter the second number
-
-Read the second number using cin
-
-Calculate the sum → sum = num1 + num2
-
-Display the sum
-
-Calculate the difference → sub = num1 - num2
-
-Display the subtraction result
-
-Calculate the product → mult = num1 * num2
-
-Display the multiplication result
-
-Calculate the division → divi = num1 / num2
-
-Display the division result
-
-End the program
-
-Conclusion
-In this experiment, the fundamentals of writing and running a C++ program were practiced.
-The "Hello World" program introduced basic syntax and output functions, while the calculator program emphasized arithmetic operations and input handling.
-The step-by-step logic applied in both programs built a strong foundation for future experiments involving conditional statements, loops, and functions.
